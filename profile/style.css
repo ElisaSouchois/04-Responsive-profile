@@ -1,0 +1,84 @@
+body{
+  background-color: #e5cde9ba;
+  display: block;
+  margin: 8px;
+}
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #5e548e;
+}
+i{
+  color: #231942;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  width: 50%;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+}
+.list-inline i:hover {
+  color: #9f86c0;
+  text-decoration: none;
+}
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card-white {
+    width: 300px;
+  }
+}
